@@ -6,6 +6,9 @@ Pypi homepage:
 
 Documentation: 
     http://pythonhosted.org/pycrypto/
+
+Personal opinion:
+    Most of pycrypto's features can be replaced by cryptography, and better to.
 """
 
 from __future__ import print_function

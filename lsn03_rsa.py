@@ -29,6 +29,8 @@ def send_message():
 send_message()
 
 def work_with_big_file():
+    """encrypt a big file using IO stream
+    """
     (pubkey, privkey) = rsa.newkeys(512, poolsize=1)
     with open(r"testdata\message.txt", "rb") as infile, open(r"testdata\received.txt", 'wb') as outfile:
         encrypt_bigfile(infile, outfile, pubkey)
